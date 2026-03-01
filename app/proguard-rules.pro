@@ -1,0 +1,7 @@
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-keep class okhttp3.** { *; }
+-keep class okio.** { *; }
+-keep class * extends android.webkit.WebChromeClient { *; }
+-keepclassmembers class * extends android.webkit.WebViewClient { *; }
